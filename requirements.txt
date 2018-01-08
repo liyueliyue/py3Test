@@ -1,3 +1,6 @@
+# 利用requirements.txt文件，用pip可以轻松安装项目所有依赖：
+# pip install -r requirements.txt
+
 # 明确版本号，可重复性高
 eventlet==0.17.4
 graceful==0.1.1
