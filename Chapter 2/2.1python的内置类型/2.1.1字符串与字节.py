@@ -17,3 +17,12 @@ print(type(b'some bytes'))
 print(type('string'))
 
 # 字符串和字节的转换：
+# 1.str(字符串)encode()为bytes(字节)：encode()
+string = 'i am coming!'
+bytes1 = str.encode(string)
+print(bytes1)
+print(type(bytes1))
+
+# 2.bytes(字节)decode()为str(字符串)：decode()
+bytes2 = b'i am bytes!'
+string2 = str
