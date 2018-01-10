@@ -17,14 +17,14 @@ print(type(b'some bytes'))
 print(type('string'))
 
 #一、字符串和字节的转换：
-# 1.str(字符串)encode()为bytes(字节)：encode()\bytes(source,encoding='字节序列则需要指定该参数')
+# 1.str(字符串)encode()为bytes(字节)：srt.encode()\bytes(source,encoding='字节序列则需要指定该参数')
 string1 = 'i am coming!'
 bytes1 = str.encode(string1)
 print(bytes1)
 print(type(bytes1))
 print(bytes(string1,encoding='utf-8'))
 
-# 2.bytes(字节)decode()为str(字符串)：decode()/str(source,encoding='字节序列则需要指定该参数')
+# 2.bytes(字节)decode()为str(字符串)：bytes.decode()/str(source,encoding='字节序列则需要指定该参数')
 bytes2 = b'i am bytes!'
 string2 = bytes.decode(bytes2)
 print(string2)
