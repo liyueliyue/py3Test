@@ -31,7 +31,7 @@ print(string2)
 print(str(bytes2,encoding='utf-8'))
 # 二、python字符串是不可变的，字节序列也是不可变的。
 # 三、字符串拼接
-# 1、str.join()方法接受可迭代的字符串作为参数，返回合并后的字符串
+# 1、str.join()方法接受可迭代的字符串作为参数，返回合并后的字符串,把序列（string\list\tuple\）合并返回一个新的字符串！
 list = ['i','am','coming','!']
 string3 = ' '.join(list)
 print(string3)
